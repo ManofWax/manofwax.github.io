@@ -6,3 +6,6 @@ categories: books
 ---
 
 ![Annapurna]({{ site.url }}/images/arrapurna.jpg)
+*Author:* Maurice Herzog
+
+*Rating:* 4

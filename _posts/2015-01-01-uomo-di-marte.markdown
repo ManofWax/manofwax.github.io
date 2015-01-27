@@ -6,3 +6,6 @@ categories: books
 ---
 
 ![L'uomo di marte Cover]({{ site.url }}/images/uomo_di_marte.jpg)
+*Author:* Andy Weir
+
+*Rating:* 4

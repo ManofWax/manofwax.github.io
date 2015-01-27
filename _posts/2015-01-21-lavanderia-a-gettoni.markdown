@@ -7,4 +7,5 @@ categories: books
 
 ![lavanderia a gettoni]({{ site.url }}/images/lavanderia_a_gettoni.jpg)
 *Author:* Valerio Monti
+
 *Rating:* 4
