@@ -5,4 +5,4 @@ date:   2015-01-01 08:00:00
 categories: books
 ---
 
-![L'uomo di marte Cover]({{ site.url }}/images/uomo_di_marte.jpg =300x)
+![L'uomo di marte Cover]({{ site.url }}/images/uomo_di_marte.jpg)
