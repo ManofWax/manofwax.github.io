@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Book 3: L'uomo di Marte"
+title:  "Book 3: Annapurna"
 date:   2015-01-14 08:00:00
 categories: books
 ---
 
-![Annapurna]({{ site.url }}/images/annapurna.jpg)
+![Annapurna]({{ site.url }}/images/arrapurna.jpg)
