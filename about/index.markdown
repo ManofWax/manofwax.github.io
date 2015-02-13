@@ -5,7 +5,7 @@ title: About
 
 ## Comics
 * XKCD
-* Perry bible fellowship
+* Perry Bible Fellowship
 * Johan Cornella
 * Cyanide & Happiness
 * Oglaf
@@ -32,7 +32,7 @@ title: About
 * Dream Theater
 * Aeryon
 * Daft Punk
-* 
+* CCCP
 
 ## Graphical Adventures
 *. Monkey Island 2: LeChuck's Revenge
@@ -44,27 +44,22 @@ title: About
 *. Broken Sword: The Shadow of the Templars
 *. Simon the Sorcerer 
 *. Broken Sword II: The Smoking Mirror
-*. Indiana Jones and the Last Crusade
 *. Day of the Tentacle
-*. Flight of the Amazon Queen
-*. Sam & Max hit the road
-*. Full Throttle
 
 ## Books
-*. Goedel, Escher, Bach
-*. The lord of the Rings
-*. Digital Apollo
-*. La Luna, si ci siamo andati
-*. House of Leaves
-*. The New York Trilogy
-*. Fight Club
+* Goedel, Escher, Bach
+* The lord of the Rings
+* Digital Apollo
+* Into Thin Air
+* House of Leaves
+* The New York Trilogy
+* Fight Club
 
 ## Film
 * Pulp Fiction
 * Dr. Strangelove
-* Plan 9 from deep space
+* Plan 9 from Deep Space
 * Blade Runner
 * Star Wars
-* Jakie Brown
+* Kill Bill
 * Clockwork orange
-* 
