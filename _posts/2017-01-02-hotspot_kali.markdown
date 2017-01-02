@@ -5,11 +5,11 @@ date:   2017-01-02 08:00:00
 categories: Kali Wi-Fi
 ---
 
-##Acknoledgment
+## Acknoledgment
 I pretty much used (this)[https://www.psattack.com/articles/20160410/setting-up-a-wireless-access-point-in-kali/] guide, but I 
 slighty modified the config files to make the configuration easier.
 
-##Disable NetworkManager
+## Disable NetworkManager
 First thing to do is to disable our Wi-Fi interface from Network-Manager:
 We can do that by adding the access point mac address to /etc/NetworkManager/NetworkManager.conf:
 
@@ -19,9 +19,9 @@ unmanaged-devices=mac:xx:xx:xx:xx:xx:xx
 ```
 and then we can restart the NetworkManager with `service NetworkManager restart`
 
-##Hostapd
+## Hostapd
 Hostapd is an access point software you can use to turn your Wi-Fi adapter to an hotspot.
-After installin Hostapd with apt-get install hostapd we must create a config file with our parameters:
+After installing Hostapd with apt-get install hostapd we must create a config file with our parameters:
 
 ```Bash
 interface=wlan0
@@ -40,7 +40,7 @@ and aWPA2 encryption with testpw12345 as a password.
 
 You can do all sorts of things with hostapd settings, as shown in "site" and "site"
 
-##Dnsmasq
+## Dnsmasq
 I do not changed anything from the original (guide)[https://www.psattack.com/articles/20160410/setting-up-a-wireless-access-point-in-kali/]  
 apart not using a dns_entries file because I didn't need one.
 So after installing dnsmasq (apt-get install dnsmasq) I created the config file on /etc/dnsmasq.d/hotspot.conf:
@@ -55,11 +55,11 @@ log-queries
 log-dhcp
 ```
 
-##Automated script
+## Automated script
 I created an automated script which starts all the services I need and wait for a Ctrl-C to close the hotspot.
 You can find the source code, and the config files here.
 If you prefer to set up the hotspot manually here are the programs:
 
-##TroubleShooting
+## TroubleShooting
 This is the most commond errors that happened during my tests:
 
