@@ -3,10 +3,6 @@ layout: post
 title:  "How to set up a Wi-Fi hotspost on Kali linux"
 date:   2017-01-02 08:00:00
 categories: Kali Wi-Fi
-tags:
-- Kali
-- Wi-Fi
-- Hotspot
 ---
 
 ## Acknoledgment

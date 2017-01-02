@@ -14,8 +14,8 @@
                   <time>{{ page.date | date_to_string }}</time>
                 </div>
                 <ul>
-                  {% for tag in page.tags %}
-                    <li><a href="{{ site.url | append:site.baseurl }}/tag/{{ tag }}">{{ tag }}</a></li>
+                  {% for tag in page.categories %}
+                    <li><p>{{ tag }}</p></li>
                   {% endfor %}
                 </ul>
               </div>
