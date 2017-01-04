@@ -5,6 +5,6 @@ date:   2017-01-01 08:00:00
 categories: Hello
 ---
 
-'''Python
+```Python
 _='_=%r;print(_%%_)';print(_%_)
-'''
+```

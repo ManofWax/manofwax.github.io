@@ -66,9 +66,11 @@ Assign an IP to our Wi-Fi interface:
 Then start `dnsmasq`:
 `dnsmasq -C /etc/dnsmasq.conf`
 Setting up IP forwanding to the other interface (eth0 in my case):
-```sysctl -w net.ipv4.ip_forward=1
+```
+sysctl -w net.ipv4.ip_forward=1
 iptables -P FORWARD ACCEPT
-iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE```
+iptables --table nat -A POSTROUTING -o eth0 -j MASQUERADE
+```
 Finally start `hostapd`:
 `hostapd /etc/hostapd.conf -B`
 
